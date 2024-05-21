@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.header, .footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.header h1 {
+    margin: 0;
+}
+.cart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.cart-icon {
+    width: 24px;
+    height: 24px;
+}
+#cart-count {
+    background: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+.beverage-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.beverage {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+.beverage img {
+    max-width: 100px;
+    height: auto;
+}
+.beverage button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.beverage button:hover {
+    background: #555;
+}
+.selection {
+    margin: 20px 0;
+}
+.cart-details {
+    margin: 20px 0;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cart-item button {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cart-item button:hover {
+    background: #cc0000;
+}
+.total {
+    font-weight: bold;
+}
+
