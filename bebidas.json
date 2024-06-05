@@ -1,0 +1,8 @@
+[
+    { "id": 1, "nombre": "Fanta", "img": "js/img/fanta.jpg", "precio": 1.5 },
+    { "id": 2, "nombre": "Coca-Cola", "img": "js/img/coca.jpg", "precio": 1.7 },
+    { "id": 3, "nombre": "Sprite", "img": "js/img/sprite.jpg", "precio": 1.6 },
+    { "id": 4, "nombre": "Pepsi", "img": "js/img/pepsi.jpg", "precio": 1.5 },
+    { "id": 5, "nombre": "Manaos", "img": "js/img/manaos.jpg", "precio": 1.2 },
+    { "id": 6, "nombre": "Pritty", "img": "js/img/pritty.jpg", "precio": 1.4 }
+]
